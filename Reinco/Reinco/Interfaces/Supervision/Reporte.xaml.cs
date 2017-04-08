@@ -6,7 +6,6 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -78,5 +77,6 @@ namespace Reinco.Interfaces.Supervision
                 await DisplayAlert("Generar Reporte", ex.Message, "Ok");
             }
         }
+       
     }
 }
